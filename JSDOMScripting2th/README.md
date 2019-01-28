@@ -4,3 +4,4 @@
 
 ## [第2章-JavaScript语法](./note/chapter2.md)
 
+## [第3章-DOM](./note/chapter3.md)

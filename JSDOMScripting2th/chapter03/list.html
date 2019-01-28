@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="funcs.js"></script>
+    <style>
+        p {
+            color: yellow;
+            font-family: "arial", sans-serif;
+            font-size: 1.2em;
+        }
+        body {
+            color: white;
+            background-color: black;
+        }
+        #purchases {
+            border: 1px solid white;
+            background-color: #333;
+            color: #ccc;
+            padding: 1em;
+        }
+        #purchases li {
+            font-weight: bold;
+        }
+    </style>
+    <title>Shopping list</title>
+</head>
+<body>
+    <h1>What to buy</h1>
+    <p title="a gentle reminder">Don't forget to buy this stuff.</p>
+    <ul id="purchases">
+        <li>A tin of beans</li>
+        <li class="sale">Cheese</li>
+        <li class="sale important">Milk</li>
+    </ul>
+</body>
+<script>
+    // alert(typeof document.getElementById("purchases"));
+    // alert(document.getElementsByTagName("li").length);
+    // var items = document.getElementsByTagName("li");
+    // for (var i = 0; i < items.length; i++) {
+    //     alert(typeof items[i]);
+    // }
+    // alert(document.getElementsByTagName("*").length);
+    // var shopping = document.getElementById("purchases");
+    // var items = shopping.getElementsByTagName("*");
+    // alert(items.length);
+
+    // alert(document.getElementsByClassName("important sale").length);
+
+    // var shopping = document.getElementById("purchases");
+    // var sales = document.getElementsByClassName("sale");
+    // alert(sales.length);
+
+    // var shopping = document.getElementById("purchases");
+    // var sales = getElementsByCLassName(shopping, "sale");
+    // alert(sales.length);
+
+
+    var params = document.getElementsByTagName("p");
+    for (var i = 0; i < params.length; i++) {
+        var title_text = params[i].getAttribute("title");
+        if (title_text) {
+            alert(title_text);
+        }
+    }
+
+</script>
+</html>
