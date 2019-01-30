@@ -26,9 +26,17 @@
 
 ## 获取和设置属性
 
+- DOM的工作模式：先加载文档的静态内容，再动态刷新，动态刷新不影响文档的静态内容。
+
 ### getAttribute
 
 - `getAttribute`是一个函数。它只有一个参数，查询的属性的名字。
   - `object.getAttribute(attribute)`
 - `getAttribute`方法不属于document对象。
+
+### setAttribute
+
+- `setAttribute()`允许我们对属性节点的值做出修改。
+- `setAttribute()`只能用于元素节点。
+- 语法格式`object.setAttribute(attribute, value)`
 
