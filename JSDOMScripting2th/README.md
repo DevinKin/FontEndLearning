@@ -9,3 +9,5 @@
 ## [第4章-JavaScript图片库案例](./note/chapter4.md)
 
 ## [第5章-最佳实践](./note/chapter5.md)
+
+## [第6章-图片库改进版](./note/chapter6.md)
