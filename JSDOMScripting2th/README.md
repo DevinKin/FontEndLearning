@@ -7,3 +7,5 @@
 ## [第3章-DOM](./note/chapter3.md)
 
 ## [第4章-JavaScript图片库案例](./note/chapter4.md)
+
+## [第5章-最佳实践](./note/chapter5.md)

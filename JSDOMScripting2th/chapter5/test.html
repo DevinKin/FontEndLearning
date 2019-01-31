@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="javascript:popUp('http://www.baidu.com/')" class="popup">Example1</a>
+<a href="javascript:popUp('http://www.baidu.com/')" class="popup">Example2</a>
+<a href="javascript:popUp('http://www.baidu.com/')" class="popup">Example3</a>
+<a href="javascript:popUp('http://www.baidu.com/')" class="popup">Example4</a>
+</body>
+<script type="text/javascript" src="script/popUp.js"></script>
+<!--<script type="application/javascript">-->
+    <!--popUp(this);-->
+<!--</script>-->
+<script type="application/javascript">
+    window.onload = prepareLinks;
+    function prepareLinks() {
+        if (document.getElementsByTagName)  return false;
+        var links = document.getElementsByTagName("a");
+        if (links[i].getAttribute("class") == "popup") {
+            popUp(this.getAttribute("href"));
+            return false;
+        }
+    }
+</script>
+</html>
