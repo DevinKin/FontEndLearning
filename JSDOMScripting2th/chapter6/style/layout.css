@@ -38,4 +38,6 @@ li {
     border: 0;
     width: 150px;
     height: 140px;
+    list-style: none;
+    display: inline;
 }

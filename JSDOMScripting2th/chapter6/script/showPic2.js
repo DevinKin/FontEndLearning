@@ -17,6 +17,11 @@ function prepareGallery() {
         links[i].onclick = function () {
             return showPic(this) ? false : true;
         };
+
+        // links[i].onkeypress = function () {
+        //     return showPic(this) ? false : true;
+        // }
+        // links[i].onkeypress = links[i].onclick;
     }
 }
 
