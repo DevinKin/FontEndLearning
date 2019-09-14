@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function htmlEscape(text) {
+        return text.replace(/[<>"&]/g, function (match, pos, originalText) {
+            switch (match) {
+                case "<":
+                    return "&lt;";
+                    break;
+                case ">":
+                    return "&gt;";
+                case "&":
+                    return "&amp;";
+                case "\"":
+                    return "&quot;";
+                default:
+                    break;
+            }
+        });
+    }
+    alert(htmlEscape("<p class=\"greeting\">Hello World!</p>"));
+</script>
+</html>
