@@ -1,0 +1,138 @@
+/* html {
+    color: black;
+}
+
+p {
+    color: grey;
+    font: medium Helvetica;
+}
+
+h2 {
+    color: silver;
+} */
+
+/* group 1 */
+h1 {
+    color: silver;
+    background: white;
+}
+
+h2 {
+    color: silver;
+    background: gray;
+}
+
+h3 {
+    color: white;
+    background: gray;
+}
+
+h4 {
+    color: silver;
+    background: white;
+}
+
+b {
+    color: gray;
+    background: white;
+}
+
+
+/* group 2 */
+h1,
+h2,
+h4 {
+    color: silver
+}
+
+h3 {
+    color: white;
+}
+
+b {
+    color: gray;
+}
+
+h2,
+h3 {
+    background: gray;
+}
+
+h1,
+h4,
+b {
+    background: white;
+}
+
+
+/* group 3 */
+h1,
+h4 {
+    color: silver;
+    background: white;
+}
+
+h2 {
+    color: silver;
+}
+
+h3 {
+    color: white;
+}
+
+h2,
+h3 {
+    background: gray;
+}
+
+b {
+    color: gray;
+    background: white;
+}
+
+h1 {
+    font: 18px Helvetica;
+    color: purple;
+    background: aqua;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: gray;
+    background: white;
+    padding: 0.5em;
+    border: 1px solid black;
+    font-family: Charcoal, sans-serif;
+}
+
+
+.warning {
+    font-style: italic;
+}
+
+p.warning {
+    font-weight: bold;
+}
+
+span.warning {
+    font-weight: bold;
+}
+
+.urgent {
+    font-style: italic;
+}
+
+.warning {
+    font-weight: bold;
+}
+
+.warning.urgent{
+    background: silver;
+}
+
+p.warning.help {
+    background: red;
+}
+
+p[class~="warning"] {
+    font-weight: bold;
+}
