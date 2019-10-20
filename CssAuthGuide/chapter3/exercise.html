@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1 {color: red;}
+        body h1 {color: green;}
+        h2.grape {color: purple;}
+        h2 {color: silver;}
+
+        html > body table tr[id="totals"] ul > li {color: maroon;}
+        li#answer {color: navy;}
+    </style>
+</head>
+<body>
+    <h1>specificity</h1>
+    <h2 class="grape">specificity2</h2>
+    <table>
+        <tr>
+            <th>num</th>
+            <th>cost</th>
+            <th>total</th>
+            <th>list</th>
+        </tr>
+        <tr id="totals">
+            <td>4</td>
+            <td>12</td>
+            <td>64</td>
+            <td>
+                <ul>
+                    <li>li1</li>
+                    <li id="answer">li2</li>
+                    <li>li3</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
