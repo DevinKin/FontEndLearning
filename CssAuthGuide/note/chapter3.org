@@ -1,5 +1,13 @@
+#+hugo_base_dir: /home/devinkin/hugo_blog
+#+hugo_section:  ./post/FrontEndLearning/CSSAuthGuide
+#+title: CSS权威指南-第3章-结构和层叠
+#+author:
+#+hugo_custom_front_matter: :author "devinkin"
+#+hugo_weight: auto
+#+hugo_auto_set_lastmod: t
+#+hugo_categories: CSS
+#+hugo_tags: CSS 前端
 * 第3章-结构和层叠
-
 ** 特殊性
    对于每个规则, 用户代理会计算选择器的特殊性, 并将这个特殊性附加到规则中的各个声明. 如果一个元素有两个或多个冲突的属性声明, 那么有最高特殊性的声明就会胜出.
 
@@ -9,7 +17,6 @@
    - 对于选择器中给定的各个元素和伪元素, 加 0,0,0,1.
    - 结合符和通配符对特殊性没有任何贡献.
    
-
 *** 内联样式特殊性
    特殊性第一个0是为内联样式声明保留的, 它比所有其他声明的特殊性都高.
    #+begin_src html

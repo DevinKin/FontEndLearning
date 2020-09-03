@@ -1,3 +1,11 @@
++++
+title = "JavaScript高级程序设计-第四章-变量、作用域和内存问题"
+lastmod = 2020-05-16T10:25:24+08:00
+tags = ["JavaScript", "前端"]
+categories = ["JavaScript"]
+draft = false
+author = "devinkin"
++++
 # 第四章-变量、作用域和内存问题
  
 ## 基本类型和引用类型

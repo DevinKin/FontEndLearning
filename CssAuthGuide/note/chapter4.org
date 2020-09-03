@@ -1,3 +1,12 @@
+#+hugo_base_dir: /home/devinkin/hugo_blog
+#+hugo_section:  ./post/FrontEndLearning/CSSAuthGuide
+#+title: CSS权威指南-第4章-值和单位
+#+author:
+#+hugo_custom_front_matter: :author "devinkin"
+#+hugo_weight: auto
+#+hugo_auto_set_lastmod: t
+#+hugo_categories: CSS
+#+hugo_tags: CSS 前端
 * 第4章-值和单位
 ** 数字
    CSS中有两类数字:
@@ -50,7 +59,6 @@
    CSS2.1中有一个关键字是所有属性共有的, 这就是 ~inherit~. ~inherit~ 使一个属性的值与其父元素的值相同.
    - 大多情况不需要指定继承, 默认使用继承.
    
-
 ** CSS2单位
    CSS2还包含另外几个单位, 所有这些单位都与声音样式表有关.
    - 角度值: 度(deg), 梯度(grad)和弧度(rad)

@@ -1,3 +1,13 @@
+#+hugo_base_dir: /home/devinkin/hugo_blog
+#+hugo_section:  ./post/FrontEndLearning/JavaScriptAdvancedProgramming
+#+title: JavaScript高级程序设计-第5章-引用类型
+#+author:
+#+hugo_custom_front_matter: :author "devinkin"
+#+hugo_weight: auto
+#+hugo_auto_set_lastmod: t
+#+hugo_categories: JavaScript
+#+hugo_tags: JavaScript 前端
+
 * 第5章-引用类型
 ** Object类型
    创建 ~Object~ 实例的方式有两种

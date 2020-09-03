@@ -1,3 +1,12 @@
+#+hugo_base_dir: /home/devinkin/hugo_blog
+#+hugo_section:  ./post/FrontEndLearning/CSSAuthGuide
+#+title: CSS权威指南-第2章-选择器
+#+author:
+#+hugo_custom_front_matter: :author "devinkin"
+#+hugo_weight: auto
+#+hugo_auto_set_lastmod: t
+#+hugo_categories: CSS
+#+hugo_tags: CSS 前端
 * 第2章-选择器
 ** 基本规则
 *** 规则结构
@@ -128,18 +137,15 @@
     可以在类选择器中忽略通配符(*).
     #+begin_src css
       .warning {
-          fon┗━━━┛╋╋╋╋┃┏━┛╋╋╋╋┗┛┗┛╋╋╋╋┗━━┛╋╋╋╋┗━━┛╋╋╋╋┗┻┻┛╋╋╋╋┗┛┗┛╋╋╋╋┗━━┛╋╋╋╋┗━━┛ a
-       ╋╋╋╋╋╋╋╋╋┃┃[The best editor is neither Emacs nor Vim, it's Emacs+Vim]
-       ╋╋╋╋╋╋╋╋╋┗┛
-           [?] [Homepage] [Documentation] [Gitter Ct-style: italic;
+    
       }
 
       p.warning {
-          font-weight: bold;
+	  font-weight: bold;
       }
 
       span.warning {
-          font-weight: bold;
+	  font-weight: bold;
       }
     #+end_src
 

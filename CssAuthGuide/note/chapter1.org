@@ -1,3 +1,13 @@
+#+hugo_base_dir: /home/devinkin/hugo_blog
+#+hugo_section:  ./post/FrontEndLearning/CSSAuthGuide
+#+title: CSS权威指南-第1章-CSS和文档
+#+author:
+#+hugo_custom_front_matter: :author "devinkin"
+#+hugo_weight: auto
+#+hugo_auto_set_lastmod: t
+#+hugo_categories: CSS
+#+hugo_tags: CSS 前端
+
 * 第1章-CSS和文档
 ** 元素
 *** 替换和非替换元素

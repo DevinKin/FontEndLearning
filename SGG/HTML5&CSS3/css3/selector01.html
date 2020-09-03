@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* div.box > span {
+        color: orange;
+    } */
+    /* div span {
+        color: skyblue;
+    } */
+
+    /* div > p > span {
+        color: slateblue;
+    } */
+    p ~ span {
+        color: red;
+    }
+</style>
+<body>
+    <div class="box">
+        我是一个div
+        <p>
+            我是div中的p元素
+        <span>我是p元素里面的span</span>
+        </p>
+        <span>我是p元素外面的span</span>
+        <span>我是p元素外面的span1</span>
+        <span>我是p元素外面的span2</span>
+        <span>我是p元素外面的span3</span>
+    </div>
+</body>
+</html>
